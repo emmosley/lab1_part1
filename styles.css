@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+    
+body {
+    background-color: #f9fafc;
+    width: 1071px; 
+    margin: 0 auto;
+	padding: 20px;
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+}
+.navbar {
+    width: 100%;
+}
+
+.links {
+    display: flex;
+    justify-content: flex-end;
+    align-items: baseline;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+li {
+    padding: 15px;
+}
+
+.chirp {
+    margin-right: auto;
+}
+a {
+    text-decoration: none; 
+    color: #69696a;
+    font-weight: normal;
+  }
+  
+img{
+    height: 20px;
+    align-items: center;
+}
+h1 {
+    font-weight: 800;
+    padding-top: 100px;
+}
+.hire {
+    background-color: #000;
+    color: white;
+    padding: 10px 10px;
+    border-radius: 15px;
+    width: auto;
+    height: fit-content;
+  }
+
+p {
+    width: 400px;
+    padding: 5px;
+}
+
+#line {
+    width: 0px;
+    height: 80px;
+    border: 1px solid #cccccc;
+    float: left;
+    margin: 10px;
+}
+button {
+    display: inline;
+    line-height: 10px;
+    position: relative;
+    text-align: center; 
+    background-color: #000;
+    color: white;
+    padding: 10px 10px;
+    border-radius: 15px;
+    /* width: 20%; */
+    /* height: fit-content; */
+    border: none;
+  }
+
+  #button {
+      text-align: center;
+      padding-top: 200px;
+  }
+
+#circle {
+    position: absolute;
+    right: 137px;
+    top: 230px;
+    width: 300px;
+    height: 300px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    background: rgba(247, 136, 167, 0.6);
+}
+
+  #circleTwo {
+    position: absolute; 
+    right: 36px;
+    top: 382px;
+    width: 200px;
+    height: 200px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    background: rgba(247, 193, 162, 0.7);
+}
+
+#circleThree {
+    position: absolute; 
+    right: 36px;
+    top: 262px;
+    width: 150px;
+    height: 150px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    background: rgba(207, 130, 213, 0.6);
+}
